@@ -1,0 +1,35 @@
+highlighter: rouge
+markdown: kramdown
+rdiscount:
+  extensions:
+    - smart
+permalink: '/:title.html'
+paginate: 5
+plugins:
+  - jekyll-paginate
+port: 3000
+safe: true
+url: 'http://username.github.io/'
+baseurl: /
+title: Eder Toledo
+author: Eder Toledo
+description: Personal blog and resume
+avatar: profile.png
+email: edertoledon@gmail.com
+github: eder-toledo
+twitter: edertoledo1
+linkedin: edertoledo
+stackoverflow: username
+disqus: username
+google_analytics: UA-69391421-1
+tel: +52 9681 040339
+tel_full: 'tel:+529681040339'
+google_maps: >-
+  https://www.google.co.uk/maps/place/44+Perth+St,+Edinburgh,+Edinburgh+City+EH3+5BL
+address:
+  street: 1a Pte Norte
+  postcode: '30430'
+  city: Jiquipilas
+country: México
+exclude:
+  - vendor
