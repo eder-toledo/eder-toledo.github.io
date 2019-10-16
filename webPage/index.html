@@ -31,37 +31,23 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="nav navbar-nav ml-auto text-right">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Sobre Nosotros
-                    </a>
-                    <div class="dropdown-menu text-right" aria-labelledby="navbarDropdown">
-                        <a class="btnPage1 dropdown-item" href="#catalog-product">Soluciones</a>
-                        <a class="btnPage1 dropdown-item" href="#nuestros-clientes">Nuestros clientes</a>
-                        <a class="btnPage1 dropdown-item" href="#grafica">Grafica</a>
-                    </div>
+                <li class="nav-item">
+                    <a class="btnPage1 dropdown-item" href="#catalog-product">Soluciones</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Tipo de proyectos
-                    </a>
-                    <div class="dropdown-menu text-right" aria-labelledby="navbarDropdown">
-                        <a class="btnPage2 dropdown-item" href="#proyecto1">Interconexión comercial</a>
-                        <a class="btnPage2 dropdown-item" href="#proyecto2">Interconexión residencial</a>
-                        <a class="btnPage2 dropdown-item" href="#proyecto3">OFF Grid</a>
-                    </div>
+                    <a class="btnPage1 dropdown-item" href="#nuestros-clientes">Nuestros clientes</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Nuestra forma de trabajo
-                    </a>
-                    <div class="dropdown-menu text-right" aria-labelledby="navbarDropdown">
-                        <a class="btnPage3 dropdown-item" href="#metodology">Metodología</a>
-                        <a class="btnPage3 dropdown-item" href="#contact">Contacto</a>
-                    </div>
+                <li class="nav-item">
+                    <a class="btnPage1 dropdown-item" href="#grafica">Grafica</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btnPage2 dropdown-item" href="#">Tipo de proyectos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btnPage3 dropdown-item" href="#metodology">Metodología</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btnPage3 dropdown-item" href="#contact">Contacto</a>
                 </li>
                 <li class="nav-item">
                     <a id="btnPage4" class="nav-link" href="#testimonial-container">Testimonios</a>
@@ -82,7 +68,7 @@
         </div>
     </nav>
     <div id="page1">
-        <div id="banner"  class="position-relative overflow-hidden p-3 p-md-5 text-center bg-light">
+        <div id="banner" class="position-relative overflow-hidden p-3 p-md-5 text-center bg-light">
             <div id="call-action" class="col-md-5 p-lg-5 my-5">
                 <h1 class="display-4 font-weight-normal">Punny headline</h1>
                 <p class="lead font-weight-normal">And an even wittier subheading to boot. Jumpstart your marketing
@@ -100,28 +86,34 @@
                     <div class="col-12 p-3"></div>
                     <div class="row text-center">
                         <div class="col-4 p-3">
-                            <div class="item">
-                                <div style="height: 160px">
-                                    <img src="img/panel-1.jpg" class="img-fluid">
-                                    <h5 class="m-3">Name product</h5>
+                            <a class="btnPage2 dropdown-item" href="#proyecto1">
+                                <div class="item">
+                                    <div style="height: 160px">
+                                        <img src="img/panel-1.jpg" class="img-fluid">
+                                        <h5 class="m-3">Interconexión comercial</h5>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="col-4 p-3">
-                            <div class="item">
-                                <div style="height: 160px">
-                                    <img src="img/panel-2.jpg" class="img-fluid">
-                                    <h5 class="m-3">Name product</h5>
+                            <a class="btnPage2 dropdown-item" href="#proyecto2">
+                                <div class="item">
+                                    <div style="height: 160px">
+                                        <img src="img/panel-2.jpg" class="img-fluid">
+                                        <h5 class="m-3">Interconexión residencial</h5>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="col-4 p-3">
-                            <div class="item">
-                                <div style="height: 160px">
-                                    <img src="img/panel-3.jpg" class="img-fluid">
-                                    <h5 class="m-3">Name product</h5>
+                            <a class="btnPage2 dropdown-item" href="#proyecto3">
+                                <div class="item">
+                                    <div style="height: 160px">
+                                        <img src="img/panel-3.jpg" class="img-fluid">
+                                        <h5 class="m-3">OFF Grid</h5>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                     <div class="row text-center">
@@ -195,15 +187,18 @@
                             <div class="row">
                                 <div class="col-6">
                                     <img src="img/lamp2.png" width="50px" height="50px">
-                                    <p>Hasta <span style="font-size: 30px; color:#d63642;">60%</span> de potencial deahorro en el costo de la energia. </p>
+                                    <p>Hasta <span style="font-size: 30px; color:#d63642;">60%</span> de potencial
+                                        deahorro en el costo de la energia. </p>
                                 </div>
                                 <div class="col-6">
                                     <img src="img/recibo.png" width="50px" height="50px">
-                                    <p>Hasta un <span style="font-size: 30px; color:#8e5ea2;">25%</span> de ahorro desde el primer recibo.</p>
+                                    <p>Hasta un <span style="font-size: 30px; color:#8e5ea2;">25%</span> de ahorro desde
+                                        el primer recibo.</p>
                                 </div>
                                 <div class="col-6 offset-3">
                                     <img src="img/lamp.png" width="50px" height="50px">
-                                    <p>Se asegura un <span style="font-size: 30px; color:#3cba9f;">15%</span> de ahorro del costo de la energia solar.</p>
+                                    <p>Se asegura un <span style="font-size: 30px; color:#3cba9f;">15%</span> de ahorro
+                                        del costo de la energia solar.</p>
                                 </div>
                             </div>
                         </div>
@@ -239,7 +234,7 @@
                 <div class="col-md-8 offset-md-2 p-3">
                     <div class="row">
                         <div class="col-md-8">
-                                <h4>Interconexión residencial</h4>
+                            <h4>Interconexión residencial</h4>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem harum sit
                                 deleniti
                                 earum minus veniam enim. Quod explicabo consequatur quae reprehenderit, aperiam, animi
@@ -250,13 +245,13 @@
                         </div>
                     </div>
                 </div>
-                <div  class="col-md-8 offset-md-2 p-3">
+                <div class="col-md-8 offset-md-2 p-3">
                     <div class="row">
                         <div class="col-md-3 text-center">
                             <img src="img/proyecto3.jpg" class="img-fluid rounded-circle img-thumbnail" alt="...">
                         </div>
                         <div class="col-md-8 offset-md-1">
-                                <h4>OFF Grid</h4>
+                            <h4>OFF Grid</h4>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem harum sit
                                 deleniti
                                 earum minus veniam enim. Quod explicabo consequatur quae reprehenderit, aperiam, animi
