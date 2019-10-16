@@ -21,316 +21,397 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+    <nav class="navbar navbar-light bg-light fixed-top">
         <a class="navbar-brand" href="#">
             <img src="img/logo.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
             ECOMADI
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            ☰
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="nav navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#banner">Inicio <span class="sr-only">(current)</span></a>
+            <ul class="nav navbar-nav ml-auto text-right">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Sobre Nosotros
+                    </a>
+                    <div class="dropdown-menu text-right" aria-labelledby="navbarDropdown">
+                        <a class="btnPage1 dropdown-item" href="#catalog-product">Soluciones</a>
+                        <a class="btnPage1 dropdown-item" href="#nuestros-clientes">Nuestros clientes</a>
+                        <a class="btnPage1 dropdown-item" href="#grafica">Grafica</a>
+                    </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#service-container">Tipo de proyectos</a>
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Tipo de proyectos
+                    </a>
+                    <div class="dropdown-menu text-right" aria-labelledby="navbarDropdown">
+                        <a class="btnPage2 dropdown-item" href="#proyecto1">Interconexión comercial</a>
+                        <a class="btnPage2 dropdown-item" href="#proyecto2">Interconexión residencial</a>
+                        <a class="btnPage2 dropdown-item" href="#proyecto3">OFF Grid</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Nuestra forma de trabajo
+                    </a>
+                    <div class="dropdown-menu text-right" aria-labelledby="navbarDropdown">
+                        <a class="btnPage3 dropdown-item" href="#metodology">Metodología</a>
+                        <a class="btnPage3 dropdown-item" href="#contact">Contacto</a>
+                    </div>
                 </li>
                 <li class="nav-item">
+                    <a id="btnPage4" class="nav-link" href="#testimonial-container">Testimonios</a>
+                </li>
+                <!--li class="nav-item">
                     <a class="nav-link" href="#metodology">Metodología</a>
-                </li>
-                <li class="nav-item">
+                </li-->
+                <!--li class="nav-item">
                     <a class="nav-link" href="#catalog-product">Soluciones</a>
-                </li>
-                <li class="nav-item">
+                </li-->
+                <!--li class="nav-item">
                     <a class="nav-link" href="#nuestros-clientes">Nuestros clientes</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#testimonial-container">Testimonios</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" href="#contact">Contacto</a>
-                </li>
+                </li-->
             </ul>
         </div>
     </nav>
-    <div id="banner" class="position-relative overflow-hidden p-3 p-md-5 text-center bg-light">
-        <div id="call-action" class="col-md-5 p-lg-5 my-5">
-            <h1 class="display-4 font-weight-normal">Punny headline</h1>
-            <p class="lead font-weight-normal">And an even wittier subheading to boot. Jumpstart your marketing efforts
-                with this example based on Apple’s marketing pages.</p>
-            <a class="btn btn-outline-secondary" href="#">Solicita tu cotización</a>
-        </div>
-    </div>
-    <div id="service-container" class="container-fluid">
-        <div id="services" class="row">
-            <div class="col-12 p-3"></div>
-            <div class="col-12 p-3"></div>
-            <div class="col-md-8 offset-md-2 p-3 text-center">
-                <h3>Nos especializamos en el siguiente tipo de proyectos</h3>
-            </div>
-            <div class="col-12 p-3"></div>
-            <div class="col-md-8 offset-md-2 p-3">
-                <div class="row">
-                    <div class="col-md-3">
-                        <img src="img/palette.png" class="img-fluid rounded-circle" alt="...">
-                    </div>
-                    <div class="col-md-8 offset-md-1">
-                        <h4>Title</h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem harum sit deleniti
-                            earum minus veniam enim. Quod explicabo consequatur quae reprehenderit, aperiam, animi
-                            voluptates, omnis provident labore voluptatum commodi modi.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-8 offset-md-2 p-3">
-                <div class="row">
-                    <div class="col-md-8">
-                        <h4>Title</h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem harum sit deleniti
-                            earum minus veniam enim. Quod explicabo consequatur quae reprehenderit, aperiam, animi
-                            voluptates, omnis provident labore voluptatum commodi modi.</p>
-                    </div>
-                    <div class="col-md-3 offset-md-1">
-                        <img src="img/palette.png" class="img-fluid rounded-circle" alt="...">
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-8 offset-md-2 p-3">
-                <div class="row">
-                    <div class="col-md-3">
-                        <img src="img/palette.png" class="img-fluid rounded-circle" alt="...">
-                    </div>
-                    <div class="col-md-8 offset-md-1">
-                        <h4>Title</h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem harum sit deleniti
-                            earum minus veniam enim. Quod explicabo consequatur quae reprehenderit, aperiam, animi
-                            voluptates, omnis provident labore voluptatum commodi modi.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 p-5"></div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div id="metodology" class="row">
-            <div class="col-12 p-3"></div>
-            <div class="col-12 p-3"></div>
-            <div class="col-md-8 offset-md-2 p-3">
-                <h3 class="text-center">Metodología de trabajo</h3>
-                <div class="col-12 p-3"></div>
-                <div class="row text-center">
-                    <div class="col">
-                        <img width="120px" src="img/step-2.png">
-                        <h5>Step 1</h5>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates, aspernatur sapiente.
-                            Aliquam et eos accusamus adipisci molestiae quidem reiciendis quod maiores perferendis vel,
-                            voluptates consequuntur nihil! Voluptatum veritatis excepturi illo?</p>
-                    </div>
-                    <div class="col-5">
-                        <div class="row">
-                            <div class="col-2">
-                                <img src="img/arrow.png" width="30px">
-                            </div>
-                            <div class="col-8">
-                                <img width="120px" src="img/step-2.png">
-                                <h5>Step 2</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa veritatis in eum hic,
-                                    nobis aspernatur tempore velit amet temporibus possimus voluptate dolorum recusandae
-                                    non doloribus, aut, doloremque quaerat voluptatibus consectetur.</p>
-                            </div>
-                            <div class="col-2">
-                                <img src="img/arrow.png" width="30px">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <img width="120px" src="img/step-2.png">
-                        <h5>Step 3</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem pariatur fugiat, cum atque quo
-                            architecto cumque ex, fuga nihil laudantium adipisci similique quaerat consequuntur maiores,
-                            repudiandae ducimus eum dolore? Explicabo.</p>
-                    </div>
-                </div>
+    <div id="page1">
+        <div id="banner" class="position-relative overflow-hidden p-3 p-md-5 text-center bg-light">
+            <div id="call-action" class="col-md-5 p-lg-5 my-5">
+                <h1 class="display-4 font-weight-normal">Punny headline</h1>
+                <p class="lead font-weight-normal">And an even wittier subheading to boot. Jumpstart your marketing
+                    efforts
+                    with this example based on Apple’s marketing pages.</p>
+                <a class="btn btn-outline-secondary" href="#">Solicita tu cotización</a>
             </div>
         </div>
-    </div>
-    <div class="container-fluid">
-        <div id="catalog-product" class="row">
-            <div class="col-12 p-3"></div>
-            <div class="col-12 p-3"></div>
-            <div class="col-md-8 offset-md-2 p-3">
-                <h3 class="text-center">Soluciones ECOMADI</h3>
+        <div class="container-fluid">
+            <div id="catalog-product" class="row">
                 <div class="col-12 p-3"></div>
-                <div class="row text-center">
-                    <div class="col-4 p-3">
-                        <div class="item">
-                            <div style="height: 160px">
-                                <img src="img/panel-1.jpg" class="img-fluid">
-                                <h5 class="m-3">Name product</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-4 p-3">
-                        <div class="item">
-                            <div style="height: 160px">
-                                <img src="img/panel-2.jpg" class="img-fluid">
-                                <h5 class="m-3">Name product</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-4 p-3">
-                        <div class="item">
-                            <div style="height: 160px">
-                                <img src="img/panel-3.jpg" class="img-fluid">
-                                <h5 class="m-3">Name product</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row text-center">
-                    <div class="col">
-                    </div>
-                    <div class="col-4 p-3">
-                        <div class="item">
-                            <div style="height: 160px">
-                                <img src="img/panel-1.jpg" class="img-fluid">
-                                <h5 class="m-3">Name product</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                    </div>
-                    <div class="col-4 p-3">
-                        <div class="item">
-                            <div style="height: 160px">
-                                <img src="img/panel-1.jpg" class="img-fluid">
-                                <h5 class="m-3">Name product</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 p-3"></div>
-        </div>
-    </div>
-    <div id="nuestros-clientes" class="container-fluid">
-        <div class="row">
-            <div class="col-12 p-3"></div>
-            <div class="col-12 p-3"></div>
-            <div class="col-md-8 offset-md-2 p-3 text-center">
-                <h3>Nuestros Clientes</h3>
                 <div class="col-12 p-3"></div>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit praesentium maiores quibusdam ad
-                    nulla dolores distinctio sit excepturi voluptatum iste quasi officiis placeat doloremque, molestiae
-                    nemo eaque, quisquam dicta! Voluptates?</p>
-            </div>
-            <div class="col-md-8 offset-md-2 p-3 text-center">
-                <img class="p-3" src="img/clientes/cliente1.jpg">
-                <img class="p-3" src="img/clientes/cliente2.jpg">
-                <img class="p-3" src="img/clientes/cliente3.jpg">
-                <img class="p-3" src="img/clientes/cliente4.jpg">
-                <img class="p-3" src="img/clientes/cliente5.png">
-                <img class="p-3" src="img/clientes/cliente6.png">
-            </div>
-            <div class="col-12 p-3"></div>
-        </div>
-    </div>
-    <div id="testimonial-container" class="container-fluid">
-        <div id="testimonial" class="row">
-            <div class="col-12 p-3"></div>
-            <div class="col-12 p-3"></div>
-            <div class="col-md-8 offset-md-2 p-3 text-center">
-                <h3>Quienes confian en nosotros dicen</h3>
-                <div class="col-12 p-3"></div>
-                <div id="carouselContent" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner" role="listbox">
-                        <div class="carousel-item active p-3">
-                            <h5>Testimonio uno</h5>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic provident ut ipsam
-                                dolore, quisquam corporis veritatis obcaecati, modi sit ipsa incidunt tenetur
-                                eius? Illo labore maiores quasi suscipit incidunt nemo!
-                            </p>
-                            <div class="p-3"></div>
+                <div class="col-md-8 offset-md-2 p-3">
+                    <h3 class="text-center">Soluciones ECOMADI</h3>
+                    <div class="col-12 p-3"></div>
+                    <div class="row text-center">
+                        <div class="col-4 p-3">
+                            <div class="item">
+                                <div style="height: 160px">
+                                    <img src="img/panel-1.jpg" class="img-fluid">
+                                    <h5 class="m-3">Name product</h5>
+                                </div>
+                            </div>
                         </div>
-                        <div class="carousel-item text-center p-3">
-                            <h5>Testimonio dos</h5>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic provident ut ipsam
-                                dolore, quisquam corporis veritatis obcaecati, modi sit ipsa incidunt tenetur
-                                eius? Illo labore maiores quasi suscipit incidunt nemo!
-                            </p>
-                            <div class="p-3"></div>
+                        <div class="col-4 p-3">
+                            <div class="item">
+                                <div style="height: 160px">
+                                    <img src="img/panel-2.jpg" class="img-fluid">
+                                    <h5 class="m-3">Name product</h5>
+                                </div>
+                            </div>
                         </div>
-                        <div class="carousel-item text-center p-3">
-                            <h5>Testimonio tres</h5>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic provident ut ipsam
-                                dolore, quisquam corporis veritatis obcaecati, modi sit ipsa incidunt tenetur
-                                eius? Illo labore maiores quasi suscipit incidunt nemo!
-                            </p>
-                            <div class="p-3"></div>
+                        <div class="col-4 p-3">
+                            <div class="item">
+                                <div style="height: 160px">
+                                    <img src="img/panel-3.jpg" class="img-fluid">
+                                    <h5 class="m-3">Name product</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col">
+                        </div>
+                        <div class="col-4 p-3">
+                            <div class="item">
+                                <div style="height: 160px">
+                                    <img src="img/panel-1.jpg" class="img-fluid">
+                                    <h5 class="m-3">Name product</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                        </div>
+                        <div class="col-4 p-3">
+                            <div class="item">
+                                <div style="height: 160px">
+                                    <img src="img/panel-1.jpg" class="img-fluid">
+                                    <h5 class="m-3">Name product</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
                         </div>
                     </div>
                 </div>
                 <div class="col-12 p-3"></div>
             </div>
-            <div class="col-12 p-3"></div>
+        </div>
+        <div id="nuestros-clientes" class="container-fluid">
+            <div class="row">
+                <div class="col-12 p-3"></div>
+                <div class="col-12 p-3"></div>
+                <div class="col-md-8 offset-md-2 p-3 text-center">
+                    <h3>Nuestros Clientes</h3>
+                    <div class="col-12 p-3"></div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit praesentium maiores quibusdam ad
+                        nulla dolores distinctio sit excepturi voluptatum iste quasi officiis placeat doloremque,
+                        molestiae
+                        nemo eaque, quisquam dicta! Voluptates?</p>
+                </div>
+                <div class="col-md-8 offset-md-2 p-3 text-center">
+                    <img class="p-3" src="img/clientes/cliente1.jpg">
+                    <img class="p-3" src="img/clientes/cliente2.jpg">
+                    <img class="p-3" src="img/clientes/cliente3.jpg">
+                    <img class="p-3" src="img/clientes/cliente4.jpg">
+                    <img class="p-3" src="img/clientes/cliente5.png">
+                    <img class="p-3" src="img/clientes/cliente6.png">
+                </div>
+                <div class="col-12 p-3"></div>
+            </div>
+        </div>
+        <div id="grafica">
+            <div class="row">
+                <div class="col-12 p-3"></div>
+                <div class="col-12 p-3"></div>
+                <div class="col-md-8 offset-md-2 p-3 text-center">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3>Beneficios de implementar nuestras soluciones</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius inventore voluptate
+                                consequatur itaque iusto! Quod corporis modi cupiditate atque, unde incidunt, veniam
+                                doloremque exercitationem dolorum blanditiis minima assumenda aperiam nobis?</p>
+                            <div class="col-12 p-3"></div>
+                        </div>
+                        <div class="col-3 offset-1 text-center">
+                            <canvas id="myChart" width="200" height="200"></canvas>
+                        </div>
+                        <div class="col">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img src="img/lamp2.png" width="50px" height="50px">
+                                    <p>Hasta <span style="font-size: 30px; color:#d63642;">60%</span> de potencial deahorro en el costo de la energia. </p>
+                                </div>
+                                <div class="col-6">
+                                    <img src="img/recibo.png" width="50px" height="50px">
+                                    <p>Hasta un <span style="font-size: 30px; color:#8e5ea2;">25%</span> de ahorro desde el primer recibo.</p>
+                                </div>
+                                <div class="col-6 offset-3">
+                                    <img src="img/lamp.png" width="50px" height="50px">
+                                    <p>Se asegura un <span style="font-size: 30px; color:#3cba9f;">15%</span> de ahorro del costo de la energia solar.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 p-3"></div>
+            </div>
         </div>
     </div>
-    <div id="contact" class="container-fluid">
-        <div class="row">
-            <div class="col-4 offset-2 panel-left">
+    <div id="page2">
+        <div id="service-container" class="container-fluid">
+            <div id="services" class="row">
                 <div class="col-12 p-3"></div>
                 <div class="col-12 p-3"></div>
+                <div id="proyecto1" class="col-md-8 offset-md-2 p-3 text-center">
+                    <h3>Nos especializamos en el siguiente tipo de proyectos</h3>
+                </div>
                 <div class="col-12 p-3"></div>
-                <h3>Contactanos</h3>
-                <div class="col-12 p-3"></div>
-                <p>Teléfonos:</p>
-                <p>55 5661 1546 // 04455 2067 3104</p>
-                <div class="col-12 p-3"></div>
-                <p>Correo electrónico:</p>
-                <p></p>
+                <div class="col-md-8 offset-md-2 p-3">
+                    <div class="row">
+                        <div class="col-md-3 text-center">
+                            <img src="img/proyecto2.jpg" class="img-fluid rounded-circle img-thumbnail" alt="...">
+                        </div>
+                        <div class="col-md-8 offset-md-1" id="proyecto2">
+                            <h4>Interconexión comercial</h4>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem harum sit
+                                deleniti
+                                earum minus veniam enim. Quod explicabo consequatur quae reprehenderit, aperiam, animi
+                                voluptates, omnis provident labore voluptatum commodi modi.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 offset-md-2 p-3">
+                    <div class="row">
+                        <div class="col-md-8">
+                                <h4>Interconexión residencial</h4>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem harum sit
+                                deleniti
+                                earum minus veniam enim. Quod explicabo consequatur quae reprehenderit, aperiam, animi
+                                voluptates, omnis provident labore voluptatum commodi modi.</p>
+                        </div>
+                        <div class="col-md-3 offset-md-1 text-center" id="proyecto3">
+                            <img src="img/proyecto1.jpg" class="img-fluid rounded-circle img-thumbnail" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div  class="col-md-8 offset-md-2 p-3">
+                    <div class="row">
+                        <div class="col-md-3 text-center">
+                            <img src="img/proyecto3.jpg" class="img-fluid rounded-circle img-thumbnail" alt="...">
+                        </div>
+                        <div class="col-md-8 offset-md-1">
+                                <h4>OFF Grid</h4>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem harum sit
+                                deleniti
+                                earum minus veniam enim. Quod explicabo consequatur quae reprehenderit, aperiam, animi
+                                voluptates, omnis provident labore voluptatum commodi modi.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 p-5"></div>
             </div>
-            <div class="col-4 panel-right">
+        </div>
+    </div>
+    <div id="page3">
+        <div class="container-fluid">
+            <div id="metodology" class="row">
                 <div class="col-12 p-3"></div>
-                <center class="form">
+                <div class="col-12 p-3"></div>
+                <div class="col-md-8 offset-md-2 p-3">
+                    <h3 class="text-center">Metodología de trabajo</h3>
                     <div class="col-12 p-3"></div>
-                    <div class="col-12 p-3"></div>
-                    <h3>Platicanos sobre tu proyecto</h3>
-                    <div class="col-12 p-3"></div>
-                    <div class="group">
-                        <input type="text" required>
-                        <span class="highlight"></span>
-                        <label>Your name</label>
+                    <div class="row text-center">
+                        <div class="col">
+                            <img width="120px" src="img/step-2.png">
+                            <h5>Step 1</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates, aspernatur
+                                sapiente.
+                                Aliquam et eos accusamus adipisci molestiae quidem reiciendis quod maiores perferendis
+                                vel,
+                                voluptates consequuntur nihil! Voluptatum veritatis excepturi illo?</p>
+                        </div>
+                        <div class="col-5">
+                            <div class="row">
+                                <div class="col-2">
+                                    <img src="img/arrow.png" width="30px">
+                                </div>
+                                <div class="col-8">
+                                    <img width="120px" src="img/step-2.png">
+                                    <h5>Step 2</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa veritatis in eum
+                                        hic,
+                                        nobis aspernatur tempore velit amet temporibus possimus voluptate dolorum
+                                        recusandae
+                                        non doloribus, aut, doloremque quaerat voluptatibus consectetur.</p>
+                                </div>
+                                <div class="col-2">
+                                    <img src="img/arrow.png" width="30px">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <img width="120px" src="img/step-2.png">
+                            <h5>Step 3</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem pariatur fugiat, cum atque
+                                quo
+                                architecto cumque ex, fuga nihil laudantium adipisci similique quaerat consequuntur
+                                maiores,
+                                repudiandae ducimus eum dolore? Explicabo.</p>
+                        </div>
                     </div>
-                    <div class="group">
-                        <input type="text" required>
-                        <span class="highlight"></span>
-                        <label>Your email</label>
-                    </div>
-                    <div class="group">
-                        <textarea type="text" required></textarea>
-                        <span class="highlight"></span>
-                        <label>Tu comentario</label>
-                    </div>
-                    <div class="col-12 p-3"></div>
-                    <a class="btn">Enviar comentario</a>
-                    <div class="col-12 p-3"></div>
-                    <div class="col-12 p-3"></div>
-                </center>
+                </div>
             </div>
-            <div class="col-2 panel-right"></div>
+        </div>
+        <div id="contact" class="container-fluid">
+            <div class="row">
+                <div class="col-4 offset-2 panel-left">
+                    <div class="col-12 p-3"></div>
+                    <div class="col-12 p-3"></div>
+                    <div class="col-12 p-3"></div>
+                    <h3>Contactanos</h3>
+                    <div class="col-12 p-3"></div>
+                    <p>Teléfonos:</p>
+                    <p>55 5661 1546 // 04455 2067 3104</p>
+                    <div class="col-12 p-3"></div>
+                    <p>Correo electrónico:</p>
+                    <p></p>
+                </div>
+                <div class="col-4 panel-right">
+                    <div class="col-12 p-3"></div>
+                    <center class="form">
+                        <div class="col-12 p-3"></div>
+                        <div class="col-12 p-3"></div>
+                        <h3>Platicanos sobre tu proyecto</h3>
+                        <div class="col-12 p-3"></div>
+                        <div class="group">
+                            <input type="text" required>
+                            <span class="highlight"></span>
+                            <label>Your name</label>
+                        </div>
+                        <div class="group">
+                            <input type="text" required>
+                            <span class="highlight"></span>
+                            <label>Your email</label>
+                        </div>
+                        <div class="group">
+                            <textarea type="text" required></textarea>
+                            <span class="highlight"></span>
+                            <label>Tu comentario</label>
+                        </div>
+                        <div class="col-12 p-3"></div>
+                        <a class="btn">Enviar comentario</a>
+                        <div class="col-12 p-3"></div>
+                        <div class="col-12 p-3"></div>
+                    </center>
+                </div>
+                <div class="col-2 panel-right"></div>
+            </div>
+        </div>
+    </div>
+    <div id="page4">
+        <div id="testimonial-container" class="container-fluid">
+            <div id="testimonial" class="row">
+                <div class="col-12 p-3"></div>
+                <div class="col-12 p-3"></div>
+                <div class="col-md-8 offset-md-2 p-3 text-center">
+                    <h3>Quienes confian en nosotros dicen</h3>
+                    <div class="col-12 p-3"></div>
+                    <div id="carouselContent" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active p-3">
+                                <h5>Testimonio uno</h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic provident ut ipsam
+                                    dolore, quisquam corporis veritatis obcaecati, modi sit ipsa incidunt tenetur
+                                    eius? Illo labore maiores quasi suscipit incidunt nemo!
+                                </p>
+                                <div class="p-3"></div>
+                            </div>
+                            <div class="carousel-item text-center p-3">
+                                <h5>Testimonio dos</h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic provident ut ipsam
+                                    dolore, quisquam corporis veritatis obcaecati, modi sit ipsa incidunt tenetur
+                                    eius? Illo labore maiores quasi suscipit incidunt nemo!
+                                </p>
+                                <div class="p-3"></div>
+                            </div>
+                            <div class="carousel-item text-center p-3">
+                                <h5>Testimonio tres</h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic provident ut ipsam
+                                    dolore, quisquam corporis veritatis obcaecati, modi sit ipsa incidunt tenetur
+                                    eius? Illo labore maiores quasi suscipit incidunt nemo!
+                                </p>
+                                <div class="p-3"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 p-3"></div>
+                </div>
+                <div class="col-12 p-3"></div>
+            </div>
         </div>
     </div>
     <!-- Footer -->
@@ -447,6 +528,9 @@
     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
 </script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.js"
+    integrity="sha256-qSIshlknROr4J8GMHRlW3fGKrPki733tLq+qeMCR05Q=" crossorigin="anonymous"></script>
+<script src="chartjs-plugin-datalabels.min.js"></script>
 <script src="src/index.js"></script>
 
 </html>
