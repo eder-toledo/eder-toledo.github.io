@@ -79,7 +79,7 @@
 }
 
 #banner {
-    background-image: url("/img/banner.jpg");
+    background-image: url("img/banner.jpg");
 }
 
 #call-action {
@@ -157,13 +157,6 @@
 
 #contact .panel-right h3{
     color: white;
-}
-
-#grafica img {
-    background: url(bg_apple_little.gif) no-repeat center center;
-    height: 50px;
-    width: 50px;
-    vertical-align: middle;
 }
 
 #grafica p{
