@@ -9,7 +9,7 @@ plugins:
   - jekyll-paginate
 port: 3000
 safe: true
-url: 'http://username.github.io/'
+url: 'http://eder-toledo.github.io/'
 baseurl: /
 title: Eder Toledo
 author: Eder Toledo
@@ -21,7 +21,7 @@ twitter: edertoledo1
 linkedin: edertoledo
 stackoverflow: username
 disqus: username
-google_analytics: UA-69391421-1
+google_analytics: UA-165286641-1
 tel: +52 9681 040339
 tel_full: 'tel:+529681040339'
 google_maps: >-
