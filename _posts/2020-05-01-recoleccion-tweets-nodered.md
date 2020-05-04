@@ -3,7 +3,7 @@ title: Recolección de tweets con node-red
 layout: post
 ---
 
-Antes que nada, me gustaría poner en contexto por qué decidí realizar la recolección de datos, principalmente para poder mejorar mis conocimientos relacionados al procesamiento y presentación de datos, además surgió como parte de la colaboración con el [Dr. Ramón Abraham Mena Farrera](https://www.ecosur.mx/academico/rmena/) quien realiza estudio de género y tiene gran interés por el análisis de dinámicas sociales en internet y después de plantear los requerimientos puse manos a la obra.
+Antes que nada, me gustaría poner en contexto por qué decidí realizar la recolección de datos, principalmente para poder mejorar mis conocimientos relacionados al procesamiento y presentación de datos, además surgió como parte de la colaboración con el [Dr. Ramón Abraham Mena Farrera](https://www.ecosur.mx/academico/rmena/) quien realiza estudios de género y tiene gran interés por el análisis de dinámicas sociales en internet, después de unas platicas en donde se pudieron identificar necesidades y plantear los requerimientos puse manos a la obra.
 
 Para este ejemplo de recolección de tweets nos apoyaremos de la herramienta [node-red](https://nodered.org/).
 
