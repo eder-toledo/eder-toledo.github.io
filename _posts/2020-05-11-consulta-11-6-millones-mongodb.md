@@ -37,92 +37,122 @@ Con esto tendremos un total de 15 consultas que ejecutaremos tanto en la colecci
 1.1.	Donde el campo Lang sea igual a “es”
 
 ![](/static/img/post2/05.png)
+>>Colección con 10000 registros
 
 ![](/static/img/post2/20.png)
+>>Colección con +11.6 millones de registros
 
 1.2.	Donde retweeted sea igual a false
 
 ![](/static/img/post2/06.png)
+>>Colección con 10000 registros
 
 ![](/static/img/post2/21.png)
+>>Colección con +11.6 millones de registros
 
 1.3.	Donde user.verified sea igual a true
 
 ![](/static/img/post2/07.png)
+>>Colección con 10000 registros
 
 ![](/static/img/post2/22.png)
+>>Colección con +11.6 millones de registros
 
 2.1. Donde el campo created_at contenga el numero “14”
 
 ![](/static/img/post2/08.png)
+>>Colección con 10000 registros
 
 ![](/static/img/post2/23.png)
+>>Colección con +11.6 millones de registros
 
 2.2. Donde el campo text contenga la palabra “people”
 
 ![](/static/img/post2/09.png)
+>>Colección con 10000 registros
 
 ![](/static/img/post2/24.png)
+>>Colección con +11.6 millones de registros
 
 2.3. Donde el campo user.description contenga la palabra “doctor”
 
 ![](/static/img/post2/10.png)
+>>Colección con 10000 registros
 
 ![](/static/img/post2/25.png)
+>>Colección con +11.6 millones de registros
 
 3.1. Donde el campo Lang sea igual a “es” y el campo user.verified sea igual a true
 
 ![](/static/img/post2/11.png)
+>>Colección con 10000 registros
 
 ![](/static/img/post2/26.png)
+>>Colección con +11.6 millones de registros
 
 3.2 Donde el campo user.geo_enabled sea igual a true y el campo user.is_translator sea igual a false
 
 ![](/static/img/post2/12.png)
+>>Colección con 10000 registros
 
 ![](/static/img/post2/27.png)
+>>Colección con +11.6 millones de registros
 
 3.3 Donde el campo Lang sea igual a “en” y el campo user.geo_enabled sea igual a true
 
 ![](/static/img/post2/13.png)
+>>Colección con 10000 registros
 
 ![](/static/img/post2/28.png)
+>>Colección con +11.6 millones de registros
 
 4.1 Donde el campo user.location sea igual a “Mexico” o “México”
 
 ![](/static/img/post2/14.png)
+>>Colección con 10000 registros
 
 ![](/static/img/post2/29.png)
+>>Colección con +11.6 millones de registros
 
 4.2 Donde el campo Lang sea igual a “es” o “en”
 
 ![](/static/img/post2/15.png)
+>>Colección con 10000 registros
 
 ![](/static/img/post2/30.png)
+>>Colección con +11.6 millones de registros
 
 4.3 Donde el campo user.friends_count sea igual a 100 o 150
 
 ![](/static/img/post2/16.png)
+>>Colección con 10000 registros
 
 ![](/static/img/post2/31.png)
+>>Colección con +11.6 millones de registros
 
 5.1	Donde el campo Lang sea igual a “es” y el user.location sea igual a “Mexico” o  “México”
 
 ![](/static/img/post2/17.png)
+>>Colección con 10000 registros
 
 ![](/static/img/post2/32.png)
+>>Colección con +11.6 millones de registros
 
 5.2	Donde el campo Lang sea igual a “en” y el campo user.friends_count sea igual a 100 o 150
 
 ![](/static/img/post2/18.png)
+>>Colección con 10000 registros
 
 ![](/static/img/post2/33.png)
+>>Colección con +11.6 millones de registros
 
 5.3	Donde el campo user.verified sea igual a true y el user.location sea igual a “Mexico” o “México”
 
 ![](/static/img/post2/19.png)
+>>Colección con 10000 registros
 
 ![](/static/img/post2/34.png)
+>>Colección con +11.6 millones de registros
 
 Con estas consultas realizadas en ambas colecciones podemos crear un grafico de tiempo de ejecución:
 
