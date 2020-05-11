@@ -1,6 +1,7 @@
 ---
 title: Proceso de recolección, transformación y presentación de información con datos
   recolectados en Twitter
+layout: post
 ---
 
 Las redes sociales representan una fuente in información que nos permite conocer los eventos que están sucediendo y lo que de ellos se está hablando.
@@ -16,4 +17,4 @@ Dado mi interés en este tema he decidido que a través de una serie de artícul
  
 Aquí encontraras disponibles los diferentes temas que iré desarrollando:
 [1.	Recolección de datos con node-red](/recoleccion-tweets-nodered.html)
-2.	Consultas a 11.6 millones de registros en MongoDB
+[2.	Consultas a 11.6 millones de registros en MongoDB](/consulta-11-6-millones-mongodb.html)
