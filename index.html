@@ -3,17 +3,11 @@ layout: home
 ---
 
 <section id="about">
-	<div class="container">
-	  <div class="avatar">
-		<img class="img-circle" src="{{ site.baseurl }}static/img/{{ site.avatar }}" alt="Responsive image">
-	  </div>
-	  <h3>Hola soy <strong>{{ site.author }}</strong>, me desempeño como Desarrollador Back-End con experiencia en PHP, C# y Javascript.</h3>
-	  <h4>He participado como asesor en proyectos universitarios, logrando participar en eventos nacionales.</h4>
-		<h4>Me gustan los proyectos relacionados con el procesamiento y presentación de información comprensible para el usuario.</h4>
-		<h4>Creo en el potencial que la juventud tiene para la creación de cosas extraordinarias.</h4>
-	  <h4>Te invito a conocer algunos de mis <a href="{{ site.baseurl }}projects.html"> proyectos</a>.</h4>
-	  <h4>Puedes revisar un <a href="/cv.html">resumen</a> de mi trayectoria y formación académica.</h3> 
-	  <h4>Puedes contactarme escribiéndome a <a href="http://twitter.com/{{ site.twitter }}">@{{ site.twitter }}</a> o si prefieres enviarme un <a href="mailto:{{ site.email }}">correo</a>.</h4>
-	  {% include social.html %}
-	</div>
+  <div class="container">
+    <div class="site-main">
+      <div class="grid grid-center">
+        {% include me.html %} {% include about.html %}
+      </div>
+    </div>
+  </div>
 </section>

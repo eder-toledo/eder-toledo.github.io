@@ -7,6 +7,7 @@ permalink: '/:title.html'
 paginate: 5
 plugins:
   - jekyll-paginate
+  - jekyll-multiple-languages-plugin
 port: 3000
 safe: true
 url: 'http://eder-toledo.github.io/'
@@ -33,3 +34,16 @@ address:
 country: México
 exclude:
   - vendor
+
+languages: ["en", "es"]
+
+exclude_from_localizations: ["assets", "static"]
+
+jekyll_admin:
+  hidden_links:
+    - posts
+    - pages
+    - staticfiles
+    - datafiles
+    - configuration
+  homepage: "pages"
