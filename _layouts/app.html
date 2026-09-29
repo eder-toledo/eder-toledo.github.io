@@ -7,13 +7,13 @@ layout: layout
     <div class="container app-subnav__inner">
       <a
         class="app-subnav__link{% if page.app_section == 'description' %} is-active{% endif %}"
-        href="{{ site.baseurl }}apps/{{ page.app_slug }}/"
+        href="/apps/{{ page.app_slug }}/"
         {% if page.app_section == 'description' %}aria-current="page"{% endif %}
         >Descripción</a
       >
       <a
         class="app-subnav__link{% if page.app_section == 'privacy' %} is-active{% endif %}"
-        href="{{ site.baseurl }}apps/{{ page.app_slug }}/privacy.html"
+        href="/apps/{{ page.app_slug }}/privacy.html"
         {% if page.app_section == 'privacy' %}aria-current="page"{% endif %}
         >Política de privacidad</a
       >

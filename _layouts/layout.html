@@ -9,7 +9,7 @@
       name="description"
       content="{{ page.description | default: site.description | strip_html | normalize_whitespace }}"
     />
-    <link rel="favicon" href="{{ site.baseurl }}static/img/favicon.ico" />
+    <link rel="favicon" href="/static/img/favicon.ico" />
 
     {% if page.title %}
     <title>{{ page.title }}</title>
@@ -20,10 +20,10 @@
     <!-- minify -->
     <link
       rel="stylesheet"
-      href="{{ site.baseurl }}static/css/tawian-frontend.css"
+      href="/static/css/tawian-frontend.css"
     />
     
-    <link rel="stylesheet" href="{{ site.baseurl }}static/css/layout.css" />
+    <link rel="stylesheet" href="/static/css/layout.css" />
 
     <!-- Google Analytics -->
     {% include analytics.html %}

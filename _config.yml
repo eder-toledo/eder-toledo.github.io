@@ -11,7 +11,7 @@ plugins:
 port: 3000
 safe: true
 url: 'http://eder-toledo.github.io/'
-baseurl: /
+baseurl: ""
 title: Eder Toledo
 author: Eder Toledo
 description: Personal blog and resume
